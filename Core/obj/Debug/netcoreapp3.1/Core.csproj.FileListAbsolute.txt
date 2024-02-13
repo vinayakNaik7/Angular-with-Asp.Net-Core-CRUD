@@ -1,0 +1,62 @@
+D:\Core\Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Core\Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Core\Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Core\Core\bin\Debug\netcoreapp3.1\Core.exe
+D:\Core\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+D:\Core\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+D:\Core\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+D:\Core\Core\bin\Debug\netcoreapp3.1\Core.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.MvcApplicationPartsAssemblyInfo.cache
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.RazorTargetAssemblyInfo.cache
+D:\Core\Core\obj\Debug\netcoreapp3.1\staticwebassets\Core.StaticWebAssets.Manifest.cache
+D:\Core\Core\obj\Debug\netcoreapp3.1\staticwebassets\Core.StaticWebAssets.xml
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.dll
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.pdb
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache
+D:\Core\Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Core\Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Core\Core\obj\Debug\netcoreapp3.1\Core.csproj.CopyComplete
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Core.exe
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.json
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Core.runtimeconfig.dev.json
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Core.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.RazorTargetAssemblyInfo.cache
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.csproj.CopyComplete
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\staticwebassets\Core.StaticWebAssets.Manifest.cache
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\staticwebassets\Core.StaticWebAssets.xml
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.dll
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.pdb
+D:\Angular-Projects\Angular + Asp.Net Core Projects\Core\obj\Debug\netcoreapp3.1\Core.genruntimeconfig.cache

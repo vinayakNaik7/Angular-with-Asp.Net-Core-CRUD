@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "firstName": "Hemant",
+      "lastName": "Sasane",
+      "email": "sasane@1234",
+      "mobileNumber": 12345,
+      "salary": "234234"
+    },
+    {
+      "id": 3,
+      "firstName": "vinayak",
+      "lastName": "naik",
+      "email": "vinayak@d",
+      "mobileNumber": 2121,
+      "salary": "1212"
+    }
+  ]
+}

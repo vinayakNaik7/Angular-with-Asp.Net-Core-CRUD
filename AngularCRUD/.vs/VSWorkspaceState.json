@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\api",
+    "\\src\\app",
+    "\\src\\app\\employee-dashboard",
+    "\\src\\app\\shared",
+    "\\src\\assets"
+  ],
+  "SelectedNode": "\\src\\app\\employee-dashboard\\employee-dashboard.component.ts",
+  "PreviewInSolutionExplorer": false
+}

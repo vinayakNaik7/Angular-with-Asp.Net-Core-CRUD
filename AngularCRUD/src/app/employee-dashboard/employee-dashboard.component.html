@@ -1,0 +1,190 @@
+<div class="navbar navbar-light" style="background-color: #009ACD ">
+  <div class="container-fluid">
+    <h1 style="color:white;">Angular CRUD</h1>
+    <div class="d-flex">
+      <!-- Button trigger modal -->
+      <button type="button" (click)="clickAddEmploye()" class="btn btn-dark m-2" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Employee</button>
+      <button type="button" (click)="clickAddStudent()" class="btn btn-dark m-2" data-bs-toggle="modal" data-bs-target="#studentModal">Add Student</button>
+    </div>
+  </div>
+</div>
+
+<div style="background-color: #F0F8FF " class="p-5">
+
+  <h1>CRUD operation using angular 12 and Json Server.</h1>
+  <br />
+  <div class="p-2" style="border-radius:10px; border:2px solid black; background-color:white;">
+    <table class="table mt-2">
+      <thead>
+        <tr>
+          <th scope="col">Employee ID</th>
+          <th scope="col">Frist Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Email ID</th>
+          <th scope="col">Mobile No.</th>
+          <th scope="col">Salary</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of employeeData">
+          <td>{{row.id}}</td>
+          <td>{{row.firstName}}</td>
+          <td>{{row.lastName}}</td>
+          <td>{{row.email}}</td>
+          <td>{{row.mobileNumber}}</td>
+          <td>{{row.salary}}</td>
+          <td>
+            <button class="btn btn-primary" (click)="onEdit(row)" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Edit</button>
+            <button class="btn btn-danger mx-3" (click)="deleteEmployees(row)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Employee Details</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form [formGroup]="formValue">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Frist Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="firstName">
+              <span *ngIf="firstName && firstName.invalid && firstName.touched" style="color:red;">This Field is Invalid</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Last Name</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" formControlName="lastName">
+              <span *ngIf="lastName && lastName.invalid && lastName.touched" style="color:red;">This Field is Invalid</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email ID</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="email">
+              <span *ngIf="email && email.invalid && email.touched" style="color:red;">This Field is Invalid</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Mobile Number</label>
+              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="mobileNumber">
+              <span *ngIf="mobileNumber && mobileNumber.invalid && mobileNumber.touched" style="color:red;">This Field is Invalid</span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Salary</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="salary">
+              <span *ngIf="salary && salary.invalid && salary.touched" style="color:red;">This Field is Invalid</span>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="cancle" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" (click)="postEmployeeDetails()" [disabled]="formValue.invalid" *ngIf="showAdd">Add</button>
+          <button type="button" class="btn btn-primary" (click)="updateEmployeeDetails()" [disabled]="formValue.invalid" *ngIf="showUpdate">Update</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br />
+  <br />
+
+
+  <!-- ****************************************************************************************** -->
+  <!-- CRUD operation using angular 12, .Net core and SQL server. -->
+  <br />
+  <br />
+  <br />
+  <br />
+  <h1>CRUD operation using angular 12, .Net core and SQL server.</h1>
+  <br />
+
+
+  <div class="p-2" style="border-radius:10px; border:2px solid black; background-color:white;">
+    <table class="table mt-2">
+      <thead>
+        <tr>
+          <th scope="col">Student ID</th>
+          <th scope="col">Frist Name</th>
+          <th scope="col">Class</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let row of StudentData">
+          <td>{{row.StudentId}}</td>
+          <td>{{row.FullName}}</td>
+          <td>{{row.Class}}</td>
+          <td>
+            <button class="btn btn-primary" (click)="onEdit1(row)" type="button" data-bs-toggle="modal" data-bs-target="#studentModal">Edit</button>
+            <button class="btn btn-danger mx-3" (click)="deleteStudent(row)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="studentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Student Details</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form [formGroup]="formValue1">
+              <div class="mb-3">
+                <label for="inputFristname" class="form-label">Frist Name</label>
+                <input type="text" class="form-control" id="inputFristname" aria-describedby="emailHelp" formControlName="FullName">
+              </div>
+              <div class="mb-3">
+                <label for="inputClass" class="form-label">Class</label>
+                <input type="text" class="form-control" id="inputClass" formControlName="Class">
+                <span *ngIf="lastName && lastName.invalid && lastName.touched" style="color:red;">This Field is Invalid</span>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="cancle1" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" (click)="postStudents()" *ngIf="showAdd">Add</button>
+            <button type="button" class="btn btn-primary" (click)="updateStudent()" *ngIf="showUpdate">Update</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+
+<br />
+
+<br />
+
+<br />
+
+<br />
+
+<form #loginForm="ngForm">
+  <label for="text">Name:</label>
+  <input type="text" name="name" ngModel/>
+  <label for="email">Email:</label>
+  <input type="email" name="email" ngModel/>
+  <button (click)="postData(loginForm.value)">login</button>
+</form>
+<br />
+
+<br />
+
+<br />
+
+<br />
